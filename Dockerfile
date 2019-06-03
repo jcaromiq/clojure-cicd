@@ -6,3 +6,4 @@ RUN pip install awscli
 RUN pip install awsebcli
 RUN curl -fsSL get.docker.com -o get-docker.sh
 RUN chmod +x get-docker.sh && ./get-docker.sh
+RUN apt-get install zip
